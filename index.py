@@ -21,9 +21,6 @@ def epic():
     file = pd.read_csv('covid-19.csv')
     state = file['state']
     county = file['county']
-    # for s, c in zip(state, county):
-    #     if s.lower() == state_in.lower():
-    #         print(file.index(s))
     print("Filtering out data by county and state.")
     for row in file.index:
         if state[row].lower() == state_in.lower() and county_in.lower() == county[row].lower():
