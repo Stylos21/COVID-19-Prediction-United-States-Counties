@@ -7,7 +7,6 @@ URL = 'https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-countie
 xs = []
 ys = []
 def epic():
-  
     state_in = input("Please write the full state of where you live. ").strip()
     county_in = input("Please write the full county of where you live. ").strip()
     f = open('covid-19.csv', 'w+')
@@ -53,5 +52,5 @@ while True:
         arr = np.array([int(days) + len(ys)]).reshape((1, 1, 1))
         pred = list(model.predict(arr)[0][0])
         print(f"Estimation:{int(pred[0])} cases and {int(pred[1])} deaths")
-    except:
+    except TypeError:
         print("Not a valid number. Please input an integer.")
