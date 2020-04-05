@@ -1,7 +1,6 @@
-from tqdm import tqdm
 import requests
 from keras.models import Sequential
-from keras.layers import Dense, LSTM
+from keras.layers import Dense
 import pandas as pd
 import numpy as np
 URL = 'https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv'
