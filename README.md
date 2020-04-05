@@ -1,0 +1,2 @@
+# COVID-19-Prediction-United-States-Counties
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/95ef5702888e415db01b3c3e91104ed3)](https://app.codacy.com/manual/elementzprojects/COVID-19-Prediction-United-States-Counties?utm_source=github.com&utm_medium=referral&utm_content=elementzprojects/COVID-19-Prediction-United-States-Counties&utm_campaign=Badge_Grade_Dashboard)
